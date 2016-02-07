@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
+
 @interface AppDelegate ()
 
 @end
@@ -19,6 +21,9 @@
     // Override point for customization after application launch.
     
     //access_token=504973361.ce27b61.2f7e13b82f29437593da34387926583e
+    
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+    
     return YES;
 }
 

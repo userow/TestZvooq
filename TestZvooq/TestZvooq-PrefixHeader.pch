@@ -1,0 +1,17 @@
+//
+//  TestZvooq-PrefixHeader.pch
+//  TestZvooq
+//
+//  Created by Pavel Wasilenko on 160210.
+//  Copyright © 2016 Test. All rights reserved.
+//
+
+#ifndef TestZvooq_PrefixHeader_pch
+#define TestZvooq_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#include <Foundation/Foundation.h>
+
+#endif /* TestZvooq_PrefixHeader_pch */

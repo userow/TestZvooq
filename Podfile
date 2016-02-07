@@ -10,5 +10,8 @@ target 'TestZvooq' do
 	pod 'AFNetworking'
 	pod 'AFNetworkActivityLogger'
 	pod 'ReactiveCocoa'
+#    pod 'ReactiveCocoa' # ? view
     pod 'Realm'
+    pod 'InstagramKit', '~> 3.0'
+#    pod ''
 end

@@ -8,28 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		80D6FEA47956C02E74EB1B90 /* Pods_TestZvooq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CE2B343F93BBDB7175994F /* Pods_TestZvooq.framework */; };
+		CD18B2F71C68AD2E00503D17 /* MediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD18B2F61C68AD2E00503D17 /* MediaModel.m */; };
+		CD293E1A1C6B7EA200797905 /* PopularImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD293E191C6B7EA200797905 /* PopularImplementation.m */; };
+		CD293E1F1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD293E1E1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.m */; };
+		CD293E221C6BD43C00797905 /* PopularViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD293E211C6BD43C00797905 /* PopularViewModel.m */; };
 		CD8EE8461C636995001C3743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8EE8451C636995001C3743 /* main.m */; };
 		CD8EE8491C636995001C3743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8EE8481C636995001C3743 /* AppDelegate.m */; };
-		CD8EE84C1C636995001C3743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8EE84B1C636995001C3743 /* ViewController.m */; };
 		CD8EE84F1C636995001C3743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8EE84D1C636995001C3743 /* Main.storyboard */; };
 		CD8EE8511C636995001C3743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8EE8501C636995001C3743 /* Assets.xcassets */; };
 		CD8EE8541C636995001C3743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8EE8521C636995001C3743 /* LaunchScreen.storyboard */; };
+		CDA888511C6897A500A23172 /* PopularModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA888501C6897A500A23172 /* PopularModel.m */; };
+		CDCC285B1C675A77000D002D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC285A1C675A77000D002D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18FB03430159C53B053554F6 /* Pods-TestZvooq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZvooq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestZvooq/Pods-TestZvooq.debug.xcconfig"; sourceTree = "<group>"; };
 		2F361501CF1D0F208ECA4CFB /* Pods-TestZvooq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestZvooq.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestZvooq/Pods-TestZvooq.release.xcconfig"; sourceTree = "<group>"; };
 		91CE2B343F93BBDB7175994F /* Pods_TestZvooq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestZvooq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD18B2F51C68AD2E00503D17 /* MediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaModel.h; sourceTree = "<group>"; };
+		CD18B2F61C68AD2E00503D17 /* MediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaModel.m; sourceTree = "<group>"; };
+		CD293E161C6B7E2A00797905 /* PopularProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularProtocol.h; sourceTree = "<group>"; };
+		CD293E181C6B7EA200797905 /* PopularImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularImplementation.h; sourceTree = "<group>"; };
+		CD293E191C6B7EA200797905 /* PopularImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularImplementation.m; sourceTree = "<group>"; };
+		CD293E1B1C6B844B00797905 /* TestZvooq-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestZvooq-PrefixHeader.pch"; sourceTree = "<group>"; };
+		CD293E1D1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+ReactiveExtension.h"; sourceTree = "<group>"; };
+		CD293E1E1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+ReactiveExtension.m"; sourceTree = "<group>"; };
+		CD293E201C6BD43C00797905 /* PopularViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularViewModel.h; sourceTree = "<group>"; };
+		CD293E211C6BD43C00797905 /* PopularViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularViewModel.m; sourceTree = "<group>"; };
 		CD8EE8411C636995001C3743 /* TestZvooq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZvooq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8EE8451C636995001C3743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD8EE8471C636995001C3743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD8EE8481C636995001C3743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD8EE84A1C636995001C3743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD8EE84B1C636995001C3743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD8EE84E1C636995001C3743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD8EE8501C636995001C3743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8EE8531C636995001C3743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8EE8551C636995001C3743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8884F1C6897A500A23172 /* PopularModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularModel.h; sourceTree = "<group>"; };
+		CDA888501C6897A500A23172 /* PopularModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularModel.m; sourceTree = "<group>"; };
+		CDCC28591C675A77000D002D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDCC285A1C675A77000D002D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +67,15 @@
 				91CE2B343F93BBDB7175994F /* Pods_TestZvooq.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD293E1C1C6B85B000797905 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CD293E1D1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.h */,
+				CD293E1E1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		CD8EE8381C636995001C3743 = {
@@ -73,10 +99,12 @@
 		CD8EE8431C636995001C3743 /* TestZvooq */ = {
 			isa = PBXGroup;
 			children = (
+				CD293E1C1C6B85B000797905 /* Categories */,
+				CDCC28561C675A4D000D002D /* Model */,
+				CDCC28581C675A4D000D002D /* ViewModel */,
+				CDCC28571C675A4D000D002D /* View */,
 				CD8EE8471C636995001C3743 /* AppDelegate.h */,
 				CD8EE8481C636995001C3743 /* AppDelegate.m */,
-				CD8EE84A1C636995001C3743 /* ViewController.h */,
-				CD8EE84B1C636995001C3743 /* ViewController.m */,
 				CD8EE84D1C636995001C3743 /* Main.storyboard */,
 				CD8EE8501C636995001C3743 /* Assets.xcassets */,
 				CD8EE8521C636995001C3743 /* LaunchScreen.storyboard */,
@@ -90,8 +118,41 @@
 			isa = PBXGroup;
 			children = (
 				CD8EE8451C636995001C3743 /* main.m */,
+				CD293E1B1C6B844B00797905 /* TestZvooq-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDCC28561C675A4D000D002D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8884F1C6897A500A23172 /* PopularModel.h */,
+				CDA888501C6897A500A23172 /* PopularModel.m */,
+				CD18B2F51C68AD2E00503D17 /* MediaModel.h */,
+				CD18B2F61C68AD2E00503D17 /* MediaModel.m */,
+				CD293E161C6B7E2A00797905 /* PopularProtocol.h */,
+				CD293E181C6B7EA200797905 /* PopularImplementation.h */,
+				CD293E191C6B7EA200797905 /* PopularImplementation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDCC28571C675A4D000D002D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDCC28591C675A77000D002D /* ViewController.h */,
+				CDCC285A1C675A77000D002D /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDCC28581C675A4D000D002D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD293E201C6BD43C00797905 /* PopularViewModel.h */,
+				CD293E211C6BD43C00797905 /* PopularViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FB9EA418B5F474C6589B9334 /* Pods */ = {
@@ -224,7 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8EE84C1C636995001C3743 /* ViewController.m in Sources */,
+				CD18B2F71C68AD2E00503D17 /* MediaModel.m in Sources */,
+				CD293E1A1C6B7EA200797905 /* PopularImplementation.m in Sources */,
+				CDA888511C6897A500A23172 /* PopularModel.m in Sources */,
+				CD293E1F1C6B85EB00797905 /* AFHTTPRequestOperationManager+ReactiveExtension.m in Sources */,
+				CD293E221C6BD43C00797905 /* PopularViewModel.m in Sources */,
+				CDCC285B1C675A77000D002D /* ViewController.m in Sources */,
 				CD8EE8491C636995001C3743 /* AppDelegate.m in Sources */,
 				CD8EE8461C636995001C3743 /* main.m in Sources */,
 			);
@@ -278,6 +344,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "TestZvooq/TestZvooq-PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -288,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -319,13 +386,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "TestZvooq/TestZvooq-PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -338,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestZvooq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestZvooq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestZvooq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestZvooq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
